@@ -10,7 +10,7 @@ body {
 button {
     background-color: #555555;
     border-color: none;
-    border: 2px;
+    border-radius: 6px;
     color: white;
     margin: 4px 4px 4px 4px;
     text-align: center;
