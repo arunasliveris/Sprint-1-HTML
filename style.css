@@ -9,6 +9,8 @@ body {
 
 button {
     background-color: #555555;
+    border-color: none;
+    border: 2px;
     color: white;
     margin: 4px 4px 4px 4px;
     text-align: center;
@@ -17,5 +19,5 @@ button {
     float: left;
     height: 30px;
     width: 15%;
-    min-width: 115px;
+    min-width: 200px;
 }
