@@ -17,7 +17,7 @@ button {
     display: inline-block;
     font-size: 16px;
     float: left;
-    height: 30px;
-    width: 15%;
+    height: 75px;
+    width: 20%;
     min-width: 200px;
 }
