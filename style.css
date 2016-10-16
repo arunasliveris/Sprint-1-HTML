@@ -27,7 +27,7 @@ button:hover {
     background-color: #555555;
 }
 
-navbar_box {
+navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -36,4 +36,7 @@ navbar_box {
   height: 90px;
   background-color: #00a087;
   border-radius: 6px;
+  border: solid green;
+  padding: 25px;
+  margin: 25px;
 }
