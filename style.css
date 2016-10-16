@@ -5,6 +5,7 @@ color: blue;
 body {
     background-image: url("http://www.zingerbug.com/Backgrounds/background_images/seamless-sky-with-clouds.jpg");
     background-repeat: repeat;
+    min-width: 600px;
 }
 
 button {
