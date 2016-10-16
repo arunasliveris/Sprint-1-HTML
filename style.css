@@ -27,7 +27,7 @@ button:hover {
     background-color: #555555;
 }
 
-navbar {
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
