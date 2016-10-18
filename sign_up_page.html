@@ -6,49 +6,70 @@
   </head>
   <body>
 
-    <p>You can sign up to join the glorious flying club here!</p>
+    <!--
+    This is a comment tag. the form. The below information is made up. Read at your own risk.
+    -->
+  <ul>
+    <li>You will get to pilot an airplane
+      <ol>
+        <li>The view is stunning.</li>
+        <li>It's exciting!</li>
+        <li>There's nothing like your first solo flight.</li>
+      </ol>
+    </li>
 
-<form action="#">
-<!--
-This is a comment tag. In the above line, "action=" should link to a file that would process the information that the user put in the form. Instead of linking to a file I put a hastag , which will make the form stay on the same page by simply suffixing the url with a "#".
--->
+    <li>You will become a better person
+      <ol>
+        <li>You'll join an elite community</li>
+        <li>Flying makes you smarter.</li>
+        <li>You will learn more about yourself</li>
+      </ol>      
+    </li>
+  </ul>
+    
+    <p>You can sign up to join the glorious flying club below!</p>
 
-  <fieldset>
-    <legend>Account information</legend>
-                        
-      <label for="email">Email:</label>             
-      <input type="email" id="user-email" required><br />
-            
-      <label for="username">Username:</label>              
-      <input type="text" id="username" required><br />
+  <form action="#">
+  <!--
+  This is a comment tag. In the above line, "action=" should link to a file that would process the information that the user put in the form. Instead of linking to a file I put a hastag , which will make the form stay on the same page by simply suffixing the url with a "#".
+  -->
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" required><br />
-</fieldset>
+   <fieldset>
+      <legend>Account information</legend>
+
+        <label for="email">Email:</label>             
+        <input type="email" id="user-email" required><br />
+
+        <label for="username">Username:</label>              
+        <input type="text" id="username" required><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" required><br />
+    </fieldset>
   
   
-  <fieldset>                
-    <legend>Information about yourself</legend>
+    <fieldset>                
+      <legend>Information about yourself</legend>
 
-      <label for="name">Name:</label>
-      <input type="text" id="name" required><br />
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br />
 
-      <label for="birth">Date of birth:</label>               
-      <input type="date" id="dob"><br />
+        <label for="birth">Date of birth:</label>               
+        <input type="date" id="dob"><br />
 
-      <label for="skill">Flying skill level:</label>                    
-      <input type="range" id="skill" value="0"><br />
+        <label for="skill">Flying skill level:</label>                    
+        <input type="range" id="skill" value="0"><br />
 
-      <label for="colour">Favourite colour:</label>                   
-      <input type="color" id="colour"><br />
+        <label for="colour">Favourite colour:</label>                   
+        <input type="color" id="colour"><br />
 
-      <label for="reason">Reason for joining:</label>               
-      <input type="text" id="reason"><br />
-  </fieldset>
+        <label for="reason">Reason for joining:</label>               
+        <input type="text" id="reason"><br />
+    </fieldset>
     
-  <input type="submit" value="Register">
+    <input type="submit" value="Sign Up">
     
-</form>
+  </form>
 
 </body>
 </html>
