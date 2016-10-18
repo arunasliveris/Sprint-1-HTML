@@ -1,4 +1,4 @@
-p.main {
+.main {
 color: blue;
 }
 
@@ -10,18 +10,16 @@ body {
 
 button {
     background-color: #888888;
-    border-color: none;
     border-radius: 6px;
     color: white;
-    margin: 4px 4px 4px 4px;
-    text-align: center;
-    display: inline-block;
+    margin: 20px 4px 20px 4px;
     font-size: 22px;
-    float: left;
-    height: 75px;
-    width: 15%;
+    height: 70px;
+    width: 10%;
     min-width: 200px;
     transition-duration: 0.5s;
+    border: none;
+  
 }
 
 button:hover {
@@ -29,15 +27,11 @@ button:hover {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
   z-index: 9999;
-  width: 100%;
-  height: 90px;
   background-color: #00a087;
-  border-radius: 6px;
+  margin-left: -8px;
+  text-align: center;
   border: solid green;
-  padding: 25px;
-  margin: 25px;
+  width: 100%;
+  
 }
