@@ -6,7 +6,6 @@ body {
     background-image: url("http://www.zingerbug.com/Backgrounds/background_images/seamless-sky-with-clouds.jpg");
     background-repeat: repeat;
     min-width:1500px;
-    z-index: 9999;
 }
 
 button {
@@ -28,7 +27,7 @@ button:hover {
 }
 
 .navbar {
-  z-index: 9998;
+  z-index: 9999;
   background-color: #00a087;
   margin-left: -8px;
   text-align: center;
