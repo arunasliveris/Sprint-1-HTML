@@ -29,7 +29,8 @@ button:hover {
 .shopfooter {
     background-color: rgba(0,85,128,0.5);
     clear: both;
-    position: relative;
+    position:fixed; 
+	bottom:2%;
     z-index: 10;
     height: 60px;
 	width:100%;
