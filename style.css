@@ -69,6 +69,8 @@ addbasket:hover {
     background-color: rgba(255,255,255,0.6);
     border-radius: 20px;
     margin: 8px;
+	text-align: center;
+    border: none;
 /*
     margin-left: auto ;
     margin-right: auto ;
