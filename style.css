@@ -70,6 +70,9 @@ Animation stuff below
 */
 
 .floating{
+    width: 85%;
+    float: right;
+    right: 250px;
 	animation-name: floating;
 	-webkit-animation-name: floating;
 
@@ -102,33 +105,4 @@ Animation stuff below
 	100% {
 		-webkit-transform: translateY(0%);
 	}			
-}
-
-
-.fly {
-    animation-name: fly;
-	-webkit-animation-name: fly;
-    position: relative;
-    -webkit-animation: fly 4s infinite  normal ease-in;
-    animation: fly 4s infinite  normal ease-in;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-}
-@-webkit-keyframes fly {
-    0% {
-        left: 0px;
-    }
-  
-    100% {
-        left: 100%;
-    }
-}
-
-@keyframes fly {
-    0% {
-        left: 0px;
-    }
-    100% {
-        left: 100%;
-    }
 }
