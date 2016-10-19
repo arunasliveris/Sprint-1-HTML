@@ -19,6 +19,7 @@ button {
     min-width: 200px;
     transition-duration: 0.5s;
     border: none;
+    opacity: 1;
 }
 
 button:hover {
@@ -44,13 +45,24 @@ addbasket:hover {
 }
 
 .navbar {
+    opacity: 0.5;
     z-index: 9999;
-    background-color: rgba(0,85,128,0.5);
+    background-color: #005580;
     border-radius: 20px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin: 8px;
     text-align: center;
     border: none;
-    width: 100%;
-  
+    width: calc(100% - 6px);
+}
+
+.shopitem {
+    opacity: 0.5;
+    z-index: 9999;
+    background-color: #a6a6a6;
+    border-radius: 20px;
+    margin: 8px;
+    text-align: left;
+    border: none;
+    width: 80%;
+    height: 300px;
 }
