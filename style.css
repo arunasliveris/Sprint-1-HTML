@@ -70,7 +70,7 @@ Animation stuff below
 */
 
 .floating{
-    width: 85%;
+    width: calc(100% - 230px);
     float: right;
     right: 250px;
 	animation-name: floating;
