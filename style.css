@@ -64,3 +64,71 @@ addbasket:hover {
     min-width: calc(100% - 20px);
     height: 250px;
 }
+
+/*
+Animation stuff below
+*/
+
+.floating{
+	animation-name: floating;
+	-webkit-animation-name: floating;
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+	0% {
+		transform: translateY(0%);	
+	}
+	50% {
+		transform: translateY(8%);	
+	}	
+	100% {
+		transform: translateY(0%);
+	}			
+}
+
+@-webkit-keyframes floating {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}
+	50% {
+		-webkit-transform: translateY(8%);	
+	}	
+	100% {
+		-webkit-transform: translateY(0%);
+	}			
+}
+
+
+.fly {
+    animation-name: fly;
+	-webkit-animation-name: fly;
+    position: relative;
+    -webkit-animation: fly 4s infinite  normal ease-in;
+    animation: fly 4s infinite  normal ease-in;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+@-webkit-keyframes fly {
+    0% {
+        left: 0px;
+    }
+  
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes fly {
+    0% {
+        left: 0px;
+    }
+    100% {
+        left: 100%;
+    }
+}
