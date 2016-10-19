@@ -55,14 +55,17 @@ addbasket:hover {
 
 .shopitem {
     z-index: 9999;
-    background-color: #ffffff;
+    background-color: rgba(255,255,255,0.8);
     border-radius: 20px;
     margin: 8px;
+    margin-left: auto ;
+    margin-right: auto ;
+    padding-left: 26px;
+    padding-top: 6px;
     text-align: left;
-    border: none;
-    width: calc(100% - 20px);
-    min-width: calc(100% - 20px);
-    height: 250px;
+    width: 70%;
+    min-width: 1000px;
+    height: 290px;
 }
 
 /*
