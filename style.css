@@ -19,7 +19,6 @@ button {
     min-width: 200px;
     transition-duration: 0.5s;
     border: none;
-    opacity: 1;
 }
 
 button:hover {
@@ -45,9 +44,8 @@ addbasket:hover {
 }
 
 .navbar {
-    opacity: 0.5;
     z-index: 9999;
-    background-color: #005580;
+    background-color: rgba(0,85,128,0.5);
     border-radius: 20px;
     margin: 8px;
     text-align: center;
