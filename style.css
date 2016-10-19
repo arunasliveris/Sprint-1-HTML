@@ -56,7 +56,7 @@ addbasket:hover {
 .shopitem {
     opacity: 0.5;
     z-index: 9999;
-    background-color: rgba(175,175,175,0.5);
+    background-color: rgba(175,175,175,1);
     border-radius: 20px;
     margin: 8px;
     text-align: left;
