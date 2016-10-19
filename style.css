@@ -60,6 +60,7 @@ addbasket:hover {
     margin: 8px;
     text-align: left;
     border: none;
-    width: 80%;
+    width: calc(100px - 20px);
+    min-width: calc(100px - 20px);
     height: 250px;
 }
