@@ -19,7 +19,7 @@ button {
     min-width: 200px;
     transition-duration: 0.5s;
     border: none;
-  
+    opacity: 1;
 }
 
 button:hover {
@@ -31,9 +31,10 @@ button:hover {
     z-index: 9999;
     background-color: #005580;
     border-radius: 20px;
-    margin-left: -8px;
+    margin-left: 8px;
+    margin-right: 8px;
     text-align: center;
     border: none;
-    width: calc(100% + 8px);
+    width: 100%;
   
 }
