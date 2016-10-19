@@ -6,6 +6,7 @@ body {
     background-image: url("http://www.zingerbug.com/Backgrounds/background_images/seamless-sky-with-clouds.jpg");
     background-repeat: repeat;
     min-width:1500px;
+	height: 100%;
 }
 
 button {
@@ -27,7 +28,7 @@ button:hover {
 
 .shopfooter {
     clear: both;
-    position: fixed;
+    position: relative;
     z-index: 10;
     height: 60px;
 	width:100%;
@@ -54,7 +55,7 @@ addbasket:hover {
 }
 
 .navbar {
-    z-index: 9999;
+    z-index: 1;
     background-color: rgba(0,85,128,0.5);
     border-radius: 20px;
     margin: 8px;
