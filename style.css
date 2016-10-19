@@ -27,11 +27,13 @@ button:hover {
 }
 
 .navbar {
-  z-index: 9999;
-  background-color: #00a087;
-  margin-left: -8px;
-  text-align: center;
-  border: solid green;
-  width: calc(100% + 8px);
+    opacity: 0.5;
+    z-index: 9999;
+    background-color: #005580;
+    border-radius: 20px;
+    margin-left: -8px;
+    text-align: center;
+    border: none;
+    width: calc(100% + 8px);
   
 }
