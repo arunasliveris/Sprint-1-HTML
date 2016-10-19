@@ -34,12 +34,11 @@ button:hover {
     z-index: 10;
     height: 60px;
 	width: calc(100% - 16px);
-	margin: 6px;
+	margin: 20px 6px 0px;
 	text-align: center;
     border: none;
 	border-radius: 20px;
 	min-width: 1000px;
-	padding-top:50px;
 }
 
 addbasket {
