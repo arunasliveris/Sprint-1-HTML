@@ -25,12 +25,13 @@ button:hover {
     background-color: #555555;
 }
 
-#footer {
+footer {
     clear: both;
-    position: relative;
+    position: fixed;
     z-index: 10;
-    height: 3em;
-    margin-top: -3em;
+    height: 60px;
+	width:100%;
+    margin-top: 60px;
 }
 
 addbasket {
