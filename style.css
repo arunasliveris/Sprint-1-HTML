@@ -26,6 +26,23 @@ button:hover {
     background-color: #555555;
 }
 
+addbasket {
+    background-color: #ffff00;
+    border-radius: 4px;
+    color: white;
+    margin: 10px;
+    font-size: 16px;
+    height: 35px;
+    width: 80px;
+    min-width: 80px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+addbasket:hover {
+    background-color: #ff9900;
+}
+
 .navbar {
     opacity: 0.5;
     z-index: 9999;
