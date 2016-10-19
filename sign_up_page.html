@@ -3,7 +3,9 @@
 <html>
   <head>
     <title>The Flying Club-Sign Up</title>
-    <h1> The Flying Club <img src="http://www.clipartkid.com/images/104/boeing-plane-silhouette-clip-art-at-clker-com-vector-clip-art-online-Vq4KRx-clipart.png" alt="Placeholder logo" width="36" height="36"> </h1>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <!-- Above is a link to a JQuery JavaScript library ^^^ -->
+    <h1> The Flying Club </h1><div id="object" class="floating"><img src="http://i.imgur.com/N3sm3Zw.png" alt="Placeholder logo" height="28"></div>
     <br>
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="style.css">
@@ -21,6 +23,19 @@
     <!--Currently if you rescale the webpage, the buttons will go to another link, I will create a new box to stop this from happening!-->
     </header>
 
+    <script type="text/javascript">
+    $('#object').click(function() {
+		$(this).toggleClass("fly");
+      
+		$(this).on('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',   
+		function() {
+		$(this).toggleClass("floating");
+
+      });
+	      });
+   </script>
+    
+    
     <br />
     <!--
     This is a comment tag. The below information is made up. Read at your own risk.
