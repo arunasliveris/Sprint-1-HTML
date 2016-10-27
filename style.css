@@ -44,7 +44,7 @@ button:hover {
 nav ul {
     list-style-type: none;
     margin: 0;
-    margin-bottom: 30 px;
+    margin-bottom: 30px;
     padding: 0;
     overflow: hidden;
     background-color: rgba(0,85,128,0.6);
@@ -75,9 +75,9 @@ css for navigation bar ends here
 */
 
 .shopitemimg {
-  width: 236 px; 
-  height: 117 px;
-  padding: 10px px;
+  width: 236px; 
+  height: 117px;
+  padding: 10px;
 }
 
 #aircraft1 {
