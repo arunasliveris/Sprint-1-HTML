@@ -11,17 +11,12 @@
 
         function init() 
         {
-
             if ( arguments.callee.done )
                 return;
-
-
             arguments.callee.done = true;
-
 
             if ( _timer )
                 clearInterval( _timer );
-
             body.className = body.className == 'hide' ? '' : 'hide'; 
         };
 
@@ -56,12 +51,10 @@
             {
                 if ( /loaded|complete/.test( document.readyState ) ) 
                 {
-
                     init();
                 }
             }, 10);
         }
-
 
         button.onclick = function() {
             body.className = body.className == 'hide' ? '' : 'hide'; 
