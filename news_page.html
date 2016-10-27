@@ -5,7 +5,21 @@
     <title>The Flying Club-News</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="http://www.clipartkid.com/images/104/boeing-plane-silhouette-clip-art-at-clker-com-vector-clip-art-online-Vq4KRx-clipart.png">
-  </head>
+    <script>
+        var button = document.getElementById('button');
+        var body = document.body;
+
+        function yourfunction() { 
+            body.className = body.className == 'hide' ? '' : 'hide'; 
+        }
+
+        window.onload = yourfunction;
+
+        button.onclick = function() {
+            body.className = body.className == 'hide' ? '' : 'hide';
+        }
+    </script>
+    </head>
     
   <body>
     
@@ -91,6 +105,8 @@
 
   <br />
   <br />   
+      
+  <button id="button">Do not click on this button</button>    
   <img src="http://cdn.unilad.co.uk/wp-content/uploads/2015/11/UNILAD-surveillance-bill-169788.jpg" alt="jumpscare.png">
       Hello World!
       
