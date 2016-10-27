@@ -44,7 +44,7 @@ button:hover {
 nav ul {
     list-style-type: none;
     margin: 0;
-    /*margin-bottom: 30px;*/
+    margin-bottom: 30px;
     padding: 0;
     overflow: hidden;
     background-color: rgba(0,85,128,0.6);
