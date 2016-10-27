@@ -13,10 +13,8 @@ body {
 
 /*
 css for navigation bar begins here
-
 ----------------------
 old navigation menu below (did not pass the validation)
-
 button {
     background-color: #888888;
     border-radius: 6px;
@@ -29,11 +27,9 @@ button {
     transition-duration: 0.5s;
     border: none;
 }
-
 button:hover {
     background-color: #555555;
 }
-
 .navbar {
     z-index: 1;
     background-color: rgba(0,85,128,0.6);
@@ -48,6 +44,7 @@ button:hover {
 nav ul {
     list-style-type: none;
     margin: 0;
+    margin-bottom: 30 px;
     padding: 0;
     overflow: hidden;
     background-color: rgba(0,85,128,0.6);
@@ -78,9 +75,9 @@ css for navigation bar ends here
 */
 
 .shopitemimg {
-  width: 236; 
-  height: 117;
-  padding: 10px;
+  width: 236 px; 
+  height: 117 px;
+  padding: 10px px;
 }
 
 #aircraft1 {
