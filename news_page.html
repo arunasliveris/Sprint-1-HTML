@@ -4,62 +4,8 @@
     <meta charset="UTF-8">
     <title>The Flying Club-News</title>
     <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="scripts/script.js" type="text/javascript"></script>
     <link rel="icon" type="image/png" href="http://www.clipartkid.com/images/104/boeing-plane-silhouette-clip-art-at-clker-com-vector-clip-art-online-Vq4KRx-clipart.png">
-    <script>
-        var button = document.getElementById('button');
-        var body = document.body;
-
-        function init() 
-        {
-            if ( arguments.callee.done )
-                return;
-            arguments.callee.done = true;
-
-            if ( _timer )
-                clearInterval( _timer );
-            body.className = body.className == 'hide' ? '' : 'hide'; 
-        };
-
-        /**
-         * for Mozilla/Opera9
-         */
-        if ( document.addEventListener ) 
-        {
-            document.addEventListener( "DOMContentLoaded", init, false );
-        }
-
-        /**
-         * for Internet Explorer
-         */
-        /*@cc_on @*/
-        /*@if (@_win32)
-            document.write("<script id=__ie_onload defer src=javascript:void(0)><\/script>");
-            var script = document.getElementById("__ie_onload");
-            script.onreadystatechange = function() {
-                if (this.readyState == "complete") {
-                    init(); // call the onload handler
-                }
-            };
-        /*@end @*/
-
-        /**
-         * for Safari
-         */
-        if ( /WebKit/i.test( navigator.userAgent ) )
-        {
-            var _timer = setInterval( function() 
-            {
-                if ( /loaded|complete/.test( document.readyState ) ) 
-                {
-                    init();
-                }
-            }, 10);
-        }
-
-        button.onclick = function() {
-            body.className = body.className == 'hide' ? '' : 'hide'; 
-        }
-    </script>
     </head>
     
   <body>
@@ -148,7 +94,11 @@
   <br />   
       
   <button id="button">Do not click on this button</button>    
-  <img src="http://cdn.unilad.co.uk/wp-content/uploads/2015/11/UNILAD-surveillance-bill-169788.jpg" alt="jumpscare.png">
+  
+      <br />
+      
+      <img src="http://cdn.unilad.co.uk/wp-content/uploads/2015/11/UNILAD-surveillance-bill-169788.jpg" alt="jumpscare.png">
+      
       Hello World!
       
 </body>
