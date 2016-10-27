@@ -1,28 +1,26 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<html>
   <head>
-    <title>The Flying Club-Sign Up</title>
-    <!-- Above is a link to a JQuery JavaScript library ^^^ -->
-<div id="object" class="floating"><img src="http://i.imgur.com/N3sm3Zw.png" alt="Placeholder logo" height="28"></div><h1> The Flying Club </h1>
-    <br>
     <meta charset="UTF-8">
+    <title>The Flying Club-Sign Up</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <link rel="icon" 
       type="image/png" 
       href="http://www.clipartkid.com/images/104/boeing-plane-silhouette-clip-art-at-clker-com-vector-clip-art-online-Vq4KRx-clipart.png">
   </head>
   <body>
-    <header class="navbar">
-    <a href="index.html"> <button class="button"> Home </button></a> <!--Yes, there is supposed to be one for Home on the Home page!-->
-    <a href="news_page.html"> <button class="button"> News </button></a>
-    <a href="activity_page.html"> <button class="button"> Activities </button></a>
-    <a href="club_shop_page.html"> <button class="button"> Club Shop </button></a>
-    <a href="sign_up_page.html"> <button class="button"> Sign up </button></a>
-    <!--Currently if you rescale the webpage, the buttons will go to another link, I will create a new box to stop this from happening!-->
-    </header>
+<div id="object" class="floating"><img src="http://i.imgur.com/N3sm3Zw.png" alt="Placeholder logo" height="28"></div><h1> The Flying Club </h1>
+   
+<nav>
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="news_page.html">News</a></li>
+       <li><a href="activity_page.html">Activities</a></li>
+       <li><a href="club_shop_page.html">Club Shop</a></li>
+       <li><a href="sign_up_page.html">Sign up</a></li>
+     </ul> 
+  </nav>
     
-    <br />
     <!--
     This is a comment tag. The below information is made up. Read at your own risk.
     -->
@@ -54,7 +52,7 @@
    <fieldset>
       <legend>Account information</legend>
 
-        <label for="email">Email:</label>             
+        <label for="user-email">Email:</label>             
         <input type="email" id="user-email" required><br />
 
         <label for="username">Username:</label>              
@@ -71,14 +69,11 @@
         <label for="name">Name:</label>
         <input type="text" id="name" required><br />
 
-        <label for="birth">Date of birth:</label>               
-        <input type="date" id="dob"><br />
+        <label for="dob">Date of birth (dd/mm/yyyy):</label>               
+        <input type="text" id="dob"><br />
 
         <label for="skill">Flying skill level:</label>                    
         <input type="range" id="skill" value="0"><br />
-
-        <label for="colour">Favourite colour:</label>                   
-        <input type="color" id="colour"><br />
 
         <label for="reason">Reason for joining:</label>               
         <input type="text" id="reason"><br />
@@ -96,11 +91,11 @@
 
      <thead>
       <tr>
-       <th id="name">Name </th>
+       <th id="tablename">Name </th>
        <th id="rank">Rank</th>
        <th id="age">Age</th>
        <th id="join">Join date</th>
-       <th id="reason">Reason</th>
+       <th id="reasontable">Reason</th>
       </tr>
        
      </thead>
