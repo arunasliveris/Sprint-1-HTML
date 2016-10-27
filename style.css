@@ -125,7 +125,9 @@ css for navigation bar ends here
     height: 290px;
 }
 
-
+.hide img {
+  display: none;
+}
 
 /*
 Animation stuff below
