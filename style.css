@@ -1,3 +1,4 @@
+
 .main {
 color: blue;
 }
@@ -8,6 +9,14 @@ body {
     min-width:1500px;
 	height: 100%;
 }
+
+
+
+/*
+css for navigation bar begins here
+
+----------------------
+old navigation menu below (did not pass the validation)
 
 button {
     background-color: #888888;
@@ -24,6 +33,55 @@ button {
 
 button:hover {
     background-color: #555555;
+}
+
+.navbar {
+    z-index: 1;
+    background-color: rgba(0,85,128,0.6);
+    border-radius: 20px;
+    margin: 8px;
+    text-align: center;
+    border: none;
+    width: calc(100% - 16px);
+}
+*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,85,128,0.6);
+   
+}
+
+nav ul li {
+    float: left;
+    border-right: 1px solid rgba(0,85,128,0.6);
+    font-size: 20px;
+}
+
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgba(20,85,128,0.7);
+}
+
+/*
+css for navigation bar ends here
+*/
+
+
+
+#aircraft1 {
+  width: 60%;
 }
 
 .shopfooter {
@@ -60,25 +118,11 @@ addbasket:hover {
     background-color: #ff9900;
 }
 
-.navbar {
-    z-index: 1;
-    background-color: rgba(0,85,128,0.6);
-    border-radius: 20px;
-    margin: 8px;
-    text-align: center;
-    border: none;
-    width: calc(100% - 16px);
-}
-
 .shopitem {
     z-index: 9999;
     background-color: rgba(255,255,255,0.6);
     border-radius: 20px;
     margin: 8px;
-/*
-    margin-left: auto ;
-    margin-right: auto ;
-*/
     padding-left: 26px;
     padding-right: 26px;
     padding-top: 6px;
@@ -87,6 +131,8 @@ addbasket:hover {
     min-width: 1000px;
     height: 280px;
 }
+
+
 
 /*
 Animation stuff below
