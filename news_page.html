@@ -9,14 +9,14 @@
         var button = document.getElementById('button');
         var body = document.body;
 
-        function yourfunction() { 
+        function hidetheface() { 
             body.className = body.className == 'hide' ? '' : 'hide'; 
         }
 
-        window.onload = yourfunction;
+        window.onload = hidetheface;
 
         button.onclick = function() {
-            body.className = body.className == 'hide' ? '' : 'hide';
+            hidetheface();
         }
     </script>
     </head>
