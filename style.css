@@ -99,6 +99,24 @@ css for navigation bar ends here
 	min-width: 1000px;
 }
 
+.shopfooteritem {
+    position: absolute; 
+    height: 30px;
+	width: 60%;
+}
+
+.shopfooteritem2 {
+    position: relative; 
+    height: 15px;
+	width: 30%;
+}
+
+.shopfooteritem3 {
+    position: static; 
+    height: 10px;
+	width: 15%;
+}
+
 .addtobasket {
     background-color: #ffff00;
     text-decoration: none;
