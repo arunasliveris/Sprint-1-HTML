@@ -212,3 +212,17 @@ p[target=span]
 	color:red;
 }
 // end selectors
+
+// multi column layout css (Best 5)
+.news {
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 100px; /* Firefox */
+    column-gap: 100px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+}
+//end
