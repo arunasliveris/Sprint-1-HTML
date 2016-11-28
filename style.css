@@ -195,7 +195,7 @@ p[target=color] {
 text-align:center;
 font-size : 20px;
 }
-//this is where the selectors are (CSSA Best 1)
+/*this is where the selectors are (CSSA Best 1) */
 [class*=font] {
 	font-size:25px;
 	
@@ -213,9 +213,9 @@ p[target=span]
 [class*="fl"]{
 	color:red;
 }
-// end selectors
+/* end selectors */
 
-// multi column layout css (Best 5)
+/* multi column layout css (Best 5)*/
 .news {
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
@@ -227,4 +227,87 @@ p[target=span]
     -moz-column-rule-style: solid; /* Firefox */
     column-rule-style: solid;
 }
-//end
+/*end */
+
+table {
+    border-collapse: collapse;
+    font-size: 125%;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(odd){
+  background-color: #9da6b5;
+}
+
+th {
+    background-color: #4f5e77;
+    color: white;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+label, input {
+    display: inline-block;
+}
+
+label {
+    width: 40%;
+    text-align: right;
+}
+
+
+input[type=text],input[type=password],input[type=email],input[type=range] {
+    padding: 6px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: #f2f2f2;
+    color: #4f5e77;
+}
+
+#skilllabel {
+  margin-bottom: 6px;
+}
+
+input[type=submit] {
+    background-color: #4f5e77;
+    border: none;
+    color: white;
+    padding: 14px 15% 14px 15%;
+    margin: 6px 30%;
+}
+
+ul.reasons {
+    list-style-type: circle;
+}
+ol.reasons {
+    background: rgba(0,15,128,0.2);
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+ul.reasons {
+    background: rgba(10,125,128,0.6);
+    padding: 35px;
+    color: white;
+    padding-bottom: 14px;
+    width: 60%;
+    font-size: 2em;
+  
+}
+
+ol li.reasons {
+    padding: 5px;
+    margin-left: 35px;
+}
