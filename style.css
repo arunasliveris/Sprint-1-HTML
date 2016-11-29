@@ -32,6 +32,11 @@ p {
 	
 }
 
+.itembox2 {
+	opacity: 0.5;
+	background-color: rgb(43,65,92);
+}
+
 #borderimage {
 	border: 10px solid transparent;
     padding: 15px;
