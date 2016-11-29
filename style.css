@@ -10,9 +10,31 @@ body {
 	height: 100%;
 }
 
-h1 {font-family:'Delius unicase',cursive;}
+h1 {
+	font-family:'Delius unicase',cursive;
+}
 	 
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	/* This means that if the first font isn't compatible with the browser or OS, then another font can be chosen to maximise compatibility.
+*/
+}
 
+.textbox {
+    background-color: rgba(0,85,128,0.6);
+    height: 100px;
+	width: calc(100% - 50px);
+	margin: 50px;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 10px 10px 20px white;
+	overflow: auto;
+	
+}
+
+#borderimage {
+    border-image: url(https://s-media-cache-ak0.pinimg.com/originals/a1/b5/dc/a1b5dc3e5208946fc3a01d851f85d769.jpg) 20 round;
+}
 
 /*
 css for navigation bar begins here
