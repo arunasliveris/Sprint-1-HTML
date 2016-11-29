@@ -27,13 +27,15 @@ p {
 	margin: 50px;
 	text-align: center;
 	border-radius: 20px;
-	box-shadow: 10px 10px 20px white;
+	box-shadow: 10px 10px 20px purple;
 	overflow: auto;
 	
 }
 
 #borderimage {
-    border-image: url(https://s-media-cache-ak0.pinimg.com/originals/a1/b5/dc/a1b5dc3e5208946fc3a01d851f85d769.jpg) 20 round;
+	border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(http://images.clipartpanda.com/clipart-star-RTA9RqzTL.png) 40 round;
 }
 
 /*
