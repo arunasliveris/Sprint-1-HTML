@@ -138,3 +138,8 @@ h2[target=color] {
 }
 
 /* end selectors */
+
+#aircraft1 {
+  width: 57%;
+  margin-bottom: 15px;
+}
