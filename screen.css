@@ -124,3 +124,17 @@ p {
 	/* This means that if the first font isn't compatible with the browser or OS, then another font can be chosen to maximise compatibility.
 */
 }
+
+/*this is where the selectors are (CSSA Best 1) */
+h2[target=color] {
+    font-size : 20px;
+    color:red;
+}
+
+[class|="beginw"]{
+	background : #DAF7A6;
+	color: #DB3916;
+	font-size: 25px;
+}
+
+/* end selectors */
