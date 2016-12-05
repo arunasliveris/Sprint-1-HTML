@@ -1,18 +1,35 @@
-<!DOCTYPE HTML>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
+<html>
+<head>
+	    <meta charset="UTF-8">
     <meta name="description" content="The Flying Club-Club for people who like to fly - 2016 "/>
     <!-- Flying club - Dorset, Bournemouth, 2016, best, top 10, high-top, best service, best company -->
-    <link rel="icon" 
-      type="image/png" 
-      href="http://www.clipartkid.com/images/104/boeing-plane-silhouette-clip-art-at-clker-com-vector-clip-art-online-Vq4KRx-clipart.png">
     <title>The Flying Club-Home Page</title>
-    <link type="text/css" rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Delius+Unicase" rel="stylesheet">
-  </head>
-  <body>
-    <div id="object" class="floating"><img src="http://i.imgur.com/N3sm3Zw.png" alt="Placeholder logo"               height="28"></div><h1>The Flying Club</h1>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/grid.css">
+	<style>
+		.container { max-width: 90em; }
+
+		@media only screen and (min-width: 34em) {
+			.feature, .info { width: 50%; }
+		}
+
+		@media only screen and (min-width: 54em) {
+			.content { width: 66.66%; }
+			.sidebar { width: 33.33%; }
+			.info    { width: 100%;   }
+		}
+
+		@media only screen and (min-width: 76em) {
+			.content { width: 58.33%; } /* 7/12 */
+			.sidebar { width: 41.66%; } /* 5/12 */
+			.info    { width: 50%;    }
+		}
+	</style>
+	<link rel="stylesheet" href="css/screen.css">
+ 
+</head>
+<body>
    <nav>
      <ul>
        <li><a href="index.html">Home</a></li>
@@ -23,11 +40,44 @@
      </ul> 
   </nav>
     
-    
-    <h2><b><a href="#contact">Contact a member of our team to fly today!</a></b></h2>
-    <p target="color"><span class="fly "> Flying is the greatest adventure of your life.</span></p>
-    <p target="span"><span class="beginw"> You'll learn a lot of skills, other than flying! </span> </p>
-   <img id="aircraft1" src="https://arunasliveris.github.io/Sprint-1-HTML/images/IMG_0450.JPG" alt="aircraft">
-   <a id="contact"><p>Phone Number: 04723932034</p></a>
+   
+<div class="container">
+
+	<div class="row col">
+		<h1>The Flying Club-Home Page</h1>
+	</div>
+
+	<div class="row">
+		<div class="col content">
+			<h2>Join our glorious flying club today, to experience flying.</h2>
+	
+			<p class="intro"><b><a href="#contact">Contact a member of our team to fly today!</a></b></p>
+
+			<div class="row">
+				<div class="col feature">
+					<h4 target="beginw">You'll learn a lot of skills, other than flying!</h4>
+					<p>By joining our flying club and flying, you will learn many skills that will help you when you are not flying.</p>
+				</div>
+
+				<div class="col feature">
+					<h4>"Flying has changed my life for the better"</h4>
+					<p>One of our members said that since joining our flying club, his life has become more interesting and exciting.</p>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col sidebar">
+
+          <h2 target="color">Flying is the greatest adventure of your life.</h2>
+			<p>All our instructors are trained to Civil Aviation Authority highest standards and combined they fly over 2500 instructional hours each year. Our club will provide safety minded and experienced staff to make your time with us as enjoyable as possible.</p>
+
+			<div class="row">
+			</div>
+			 <a id="contact"><p>Phone Number: 04723932034</p></a>
+		</div>
+	</div>
+</div>
+
 </body>
 </html>
