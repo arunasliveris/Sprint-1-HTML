@@ -1,13 +1,19 @@
 .flyclub_sixth {
 width: 16.6%
 height: 200px
+background-color: rgba(0,85,128,0.6);
+  float:left;
 }
 
 .flyclub_third {
 width: 33.3%
 height: 200px
+background-color: rgba(0,85,128,0.6);
+  float:left;
 }
 .flyclub_half {
 width: 50%
 height: 200px
+background-color: rgba(0,85,128,0.6);
+  float:left;
 }
