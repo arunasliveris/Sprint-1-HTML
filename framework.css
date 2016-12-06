@@ -3,7 +3,7 @@ width: 16.6%;
 height: 200px;
 background-color: rgba(0,85,128,0.6);
   border-style: solid;
-    border-color: rgb(100,100,100);
+    border-color: black;
   float:left;
 }
 
@@ -12,7 +12,8 @@ width: 33.3%;
 height: 200px;
 background-color: rgba(0,85,128,0.6);
   border-style: solid;
-    border-color: rgb(100,100,100)
+  border-width: 5px;
+    border-color: black;
   float:left;
 }
 .flyclub_half {
@@ -20,7 +21,8 @@ width: 50%;
 height: 200px;
 background-color: rgba(0,85,128,0.6);
   border-style: solid;
-    border-color: rgb(100,100,100)
+  border-width: 5px;
+    border-color: black;
   float:left;
 }
 
