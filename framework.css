@@ -17,3 +17,8 @@ height: 200px
 background-color: rgba(0,85,128,0.6);
   float:left;
 }
+
+.row {
+  width:100%;
+  height:205px;
+}
