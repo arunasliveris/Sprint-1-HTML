@@ -1,5 +1,5 @@
 .flyclub_sixth {
-width: 16.6%;
+width: calc(16.6% - 10px);
 height: 200px;
 background-color: rgba(0,85,128,0.6);
   border-style: solid;
@@ -8,7 +8,7 @@ background-color: rgba(0,85,128,0.6);
 }
 
 .flyclub_third {
-width: 33.3%;
+width: calc(33.3% - 10px);
 height: 200px;
 background-color: rgba(0,85,128,0.6);
   border-style: solid;
@@ -17,7 +17,7 @@ background-color: rgba(0,85,128,0.6);
   float:left;
 }
 .flyclub_half {
-width: 50%;
+width: calc(50% - 10px);
 height: 200px;
 background-color: rgba(0,85,128,0.6);
   border-style: solid;
