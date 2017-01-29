@@ -180,6 +180,11 @@ css for navigation bar ends here
   display: none;
 }
 
+div.maps {
+	margin: auto;
+	width: 650px;
+}
+
 /*
 Animation stuff below
 */
