@@ -128,12 +128,12 @@ p {
 /*this is where the selectors are (CSSA Best 1) */
 h2[target=color] {
     font-size : 20px;
-    color:red;
+    color: #2B69AF;
 }
 
 [class|="beginw"]{
-	background : #DAF7A6;
-	color: #DB3916;
+	background : #399CD9;
+	color: #E2F6FD;
 	font-size: 25px;
 }
 
